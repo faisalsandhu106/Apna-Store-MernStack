@@ -63,7 +63,7 @@ const ContactUs = () => {
     };
 
     try {
-      const url = 'http://localhost:3000/contact/user';
+      const url = 'https://apna-store-backend-two.vercel.app/contact/user';
       const res = await fetch(url, {
         method: 'POST',
         headers: {
