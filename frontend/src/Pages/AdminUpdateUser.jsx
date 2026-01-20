@@ -8,7 +8,7 @@ import { FaLongArrowAltLeft } from 'react-icons/fa';
 
 const AdminUpdateUser = () => {
     const { id } = useParams();
-    const API = "http://localhost:3000";
+    const API = "https://apna-store-backend-two.vercel.app";
     //* console.log('params single product', id);
 
     const [isUser, setIsuser] = useState({
@@ -16,7 +16,6 @@ const AdminUpdateUser = () => {
         lastname: "",
         email: "",
         address: "",
-        // password: ""
     });
 
     // *---------------------------------------------
@@ -32,13 +31,6 @@ const AdminUpdateUser = () => {
 
         const data = await res.json();
         setIsuser(data)
-
-        // if (res.ok) {
-        //     hendleSuccess(data.message)
-        // } else {
-        //     hendleError(data.message)
-        // }
-
     };
 
     const handleInputValue = (e) => {
