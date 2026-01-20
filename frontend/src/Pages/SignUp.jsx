@@ -30,7 +30,7 @@ const SignUp = () => {
         };
 
         try {
-            const url = 'http://localhost:3000/auth/signup';
+            const url = 'https://apna-store-backend-two.vercel.app/auth/signup';
             const res = await fetch(url, {
                 method: 'POST',
                 headers: {
