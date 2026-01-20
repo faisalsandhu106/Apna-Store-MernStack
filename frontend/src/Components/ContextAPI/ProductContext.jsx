@@ -4,7 +4,7 @@ import axios from "axios";
 
 const AppContext = createContext();
 // const API = "https://dummyjson.com/products"
-const API = "https://apna-store-mern.vercel.app/api/allproducts"
+const API = "https://apna-store-backend-two.vercel.app/api/allproducts"
 
 const initialState = {
     isLoading: false,
