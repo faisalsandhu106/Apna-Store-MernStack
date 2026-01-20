@@ -45,7 +45,7 @@ const SingleProduct = () => {
     })
 
     const data = await res.json();
-    setIsData(data)
+    setIsData(data);
     // console.log(data)
   };
 
