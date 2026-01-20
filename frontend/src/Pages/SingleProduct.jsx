@@ -1,86 +1,86 @@
 import React, { useEffect, useState } from 'react'
-import { NavLink, useParams } from 'react-router-dom';
-import { FaLongArrowAltLeft } from 'react-icons/fa';
-import RatingProduct from '../Components/Common/RatingProduct';
-import { TbReplace, TbTruckDelivery } from 'react-icons/tb';
-import { RiSecurePaymentFill } from 'react-icons/ri';
-import { GiReceiveMoney } from 'react-icons/gi';
-import AddProductButton from '../Components/ShopComps/AddProductButton';
-import { ToastContainer } from 'react-toastify';
+// import { NavLink, useParams } from 'react-router-dom';
+// import { FaLongArrowAltLeft } from 'react-icons/fa';
+// import RatingProduct from '../Components/Common/RatingProduct';
+// import { TbReplace, TbTruckDelivery } from 'react-icons/tb';
+// import { RiSecurePaymentFill } from 'react-icons/ri';
+// import { GiReceiveMoney } from 'react-icons/gi';
+// import AddProductButton from '../Components/ShopComps/AddProductButton';
+// import { ToastContainer } from 'react-toastify';
 
 const SingleProduct = () => {
-  const { id } = useParams();
+  // const { id } = useParams();
 
-  const [isdata, setIsData] = useState({
-    // _id: alise: "",
-    title: "",
-    longDescription: "",
-    shortDescription: "",
-    category: "",
-    price: "",
-    discountPercentage: "",
-    rating: "",
-    stock: "",
-    tags: "",
-    brand: "",
-    sku: "",
-    warrantyInformation: "",
-    shippingInformation: "",
-    availabilityStatus: "",
-    returnPolicy: "",
-    deliveryFree: "",
-    securePayment: "",
-    minimumOrderQuantity: "",
-    images: "",
-    // feature,
-    // status,
-  })
+  // const [isdata, setIsData] = useState({
+  //   // _id: alise: "",
+  //   title: "",
+  //   longDescription: "",
+  //   shortDescription: "",
+  //   category: "",
+  //   price: "",
+  //   discountPercentage: "",
+  //   rating: "",
+  //   stock: "",
+  //   tags: "",
+  //   brand: "",
+  //   sku: "",
+  //   warrantyInformation: "",
+  //   shippingInformation: "",
+  //   availabilityStatus: "",
+  //   returnPolicy: "",
+  //   deliveryFree: "",
+  //   securePayment: "",
+  //   minimumOrderQuantity: "",
+  //   images: "",
+  //   // feature,
+  //   // status,
+  // })
 
-  const getAllproductIndividual = async () => {
-    const res = await fetch(`https://apna-store-backend-two.vercel.app/api/allproducts/${id}`, {
-      method: "GET",
-      headers: {
-        'Content-Type': 'application/json'
-      },
-    })
+  // const getAllproductIndividual = async () => {
+  //   const res = await fetch(`https://apna-store-backend-two.vercel.app/api/allproducts/${id}`, {
+  //     method: "GET",
+  //     headers: {
+  //       'Content-Type': 'application/json'
+  //     },
+  //   })
 
-    const data = await res.json();
-    setIsData(data)
-    // console.log(data)
-  };
+  //   const data = await res.json();
+  //   setIsData(data)
+  //   // console.log(data)
+  // };
 
-  useEffect(() => {
-    getAllproductIndividual();
-  }, []);
+  // useEffect(() => {
+  //   getAllproductIndividual();
+  // }, []);
 
-  const {
-    _id: alise,
-    title,
-    longDescription,
-    // shortDescription,
-    category,
-    price,
-    discountPercentage,
-    rating,
-    stock,
-    tags,
-    brand,
-    sku,
-    warrantyInformation,
-    shippingInformation,
-    // availabilityStatus,
-    returnPolicy,
-    deliveryFree,
-    securePayment,
-    minimumOrderQuantity,
-    images,
-    // feature,
-    // status,
-  } = isdata
+  // const {
+  //   _id: alise,
+  //   title,
+  //   longDescription,
+  //   // shortDescription,
+  //   category,
+  //   price,
+  //   discountPercentage,
+  //   rating,
+  //   stock,
+  //   tags,
+  //   brand,
+  //   sku,
+  //   warrantyInformation,
+  //   shippingInformation,
+  //   // availabilityStatus,
+  //   returnPolicy,
+  //   deliveryFree,
+  //   securePayment,
+  //   minimumOrderQuantity,
+  //   images,
+  //   // feature,
+  //   // status,
+  // } = isdata
 
   return (
     <>
-      <div className='flex flex-col pt-20 pb-5 w-full min-h-[100vh] overflow-hidden'>
+      {/* <div className='flex flex-col pt-20 pb-5 w-full min-h-[100vh] overflow-hidden'>
         <div className='flex items-center justify-between w-full h-auto xs:px-3 sm:px-6 md:px-8 lg:px-10 xs:text-[0.83em] md:xs:text-[0.88em] xl:xs:text-[0.9em] shadow-sm'>
           <NavLink to="/shop" className='flex items-center gap-x-2 my-4 font-semibold hover:text-gray-500 duration-100'>
             <FaLongArrowAltLeft /> Back to Products
@@ -174,7 +174,7 @@ const SingleProduct = () => {
           </div>
         </div>
       </div>
-      <ToastContainer />
+      <ToastContainer /> */}
     </>
   )
 }
