@@ -1,0 +1,152 @@
+[
+    {
+        "title": "Wireless Noise Cancelling Headphones",
+        "shortDescription": "Premium wireless headphones with active noise cancellation.",
+        "longDescription": "These wireless noise cancelling headphones deliver immersive sound quality with deep bass and crystal-clear highs. Designed for long listening sessions with ergonomic ear cups and up to 30 hours of battery life.",
+        "category": "Electronics",
+        "price": 199.99,
+        "discountPercentage": 10,
+        "rating": 4.6,
+        "stock": 120,
+        "tags": [
+            "audio",
+            "wireless",
+            "noise-cancelling"
+        ],
+        "feature": true,
+        "brand": "SoundMax",
+        "sku": "SMX-HDP-001",
+        "warrantyInformation": "1 year manufacturer warranty",
+        "shippingInformation": "Ships within 2 business days",
+        "availabilityStatus": "In Stock",
+        "returnPolicy": "30-day return policy",
+        "deliveryFree": "Free Delivery",
+        "securePayment": "Secure Payment",
+        "minimumOrderQuantity": 1,
+        "images": [
+            "https://images.unsplash.com/photo-1518443895471-6d4d6b56f6a3",
+            "https://images.unsplash.com/photo-1585386959984-a41552231693",
+            "https://images.unsplash.com/photo-1505740420928-5e560c06d30e"
+        ]
+    },
+    {
+        "title": "Smart Fitness Watch",
+        "shortDescription": "Track your health and fitness in real time.",
+        "longDescription": "This smart fitness watch monitors heart rate, steps, calories burned, sleep patterns, and workouts. Water-resistant and compatible with Android and iOS devices.",
+        "category": "Wearables",
+        "price": 129.99,
+        "discountPercentage": 15,
+        "rating": 4.4,
+        "stock": 200,
+        "tags": [
+            "fitness",
+            "smartwatch",
+            "health"
+        ],
+        "feature": true,
+        "brand": "FitPulse",
+        "sku": "FP-WT-002",
+        "warrantyInformation": "1 year limited warranty",
+        "shippingInformation": "Ships within 24 hours",
+        "availabilityStatus": "In Stock",
+        "returnPolicy": "15-day return policy",
+        "deliveryFree": "Free Delivery",
+        "securePayment": "Secure Payment",
+        "minimumOrderQuantity": 1,
+        "images": [
+            "https://images.unsplash.com/photo-1516574187841-cb9cc2ca948b",
+            "https://images.unsplash.com/photo-1546868871-7041f2a55e12",
+            "https://images.unsplash.com/photo-1523275335684-37898b6baf30"
+        ]
+    },
+    {
+        "title": "Gaming Mechanical Keyboard",
+        "shortDescription": "RGB mechanical keyboard for gamers.",
+        "longDescription": "High-performance mechanical keyboard with customizable RGB lighting, anti-ghosting keys, and durable switches rated for 50 million keystrokes.",
+        "category": "Computer Accessories",
+        "price": 89.99,
+        "discountPercentage": 12,
+        "rating": 4.7,
+        "stock": 75,
+        "tags": [
+            "gaming",
+            "keyboard",
+            "mechanical"
+        ],
+        "feature": false,
+        "brand": "KeyStorm",
+        "sku": "KS-MK-003",
+        "warrantyInformation": "2 years warranty",
+        "shippingInformation": "Ships in 3 business days",
+        "availabilityStatus": "In Stock",
+        "returnPolicy": "30-day return policy",
+        "deliveryFree": "Free Delivery",
+        "securePayment": "Secure Payment",
+        "minimumOrderQuantity": 1,
+        "images": [
+            "https://images.unsplash.com/photo-1517336714731-489689fd1ca8",
+            "https://images.unsplash.com/photo-1587825140708-dfaf72ae4b04",
+            "https://images.unsplash.com/photo-1593642532400-2682810df593"
+        ]
+    },
+    {
+        "title": "4K Ultra HD Smart TV 55\"",
+        "shortDescription": "55-inch 4K UHD Smart Television.",
+        "longDescription": "Enjoy stunning visuals with this 55-inch 4K Ultra HD Smart TV featuring HDR support, built-in streaming apps, and voice control compatibility.",
+        "category": "Home Entertainment",
+        "price": 549.99,
+        "discountPercentage": 8,
+        "rating": 4.5,
+        "stock": 40,
+        "tags": [
+            "tv",
+            "4k",
+            "smart-tv"
+        ],
+        "feature": true,
+        "brand": "VisionPlus",
+        "sku": "VP-TV-004",
+        "warrantyInformation": "2 years manufacturer warranty",
+        "shippingInformation": "Free home delivery within 5 days",
+        "availabilityStatus": "In Stock",
+        "returnPolicy": "10-day return policy",
+        "deliveryFree": "Free Delivery",
+        "securePayment": "Secure Payment",
+        "minimumOrderQuantity": 1,
+        "images": [
+            "https://images.unsplash.com/photo-1593784991095-a205069470b6",
+            "https://images.unsplash.com/photo-1577985051167-0d49eec21977",
+            "https://images.unsplash.com/photo-1584905066893-7d5c142ba4e1"
+        ]
+    },
+    {
+        "title": "Ergonomic Office Chair",
+        "shortDescription": "Comfortable ergonomic chair for office use.",
+        "longDescription": "Designed to support proper posture, this ergonomic office chair features adjustable height, lumbar support, breathable mesh back, and smooth-rolling wheels.",
+        "category": "Furniture",
+        "price": 179.99,
+        "discountPercentage": 18,
+        "rating": 4.3,
+        "stock": 60,
+        "tags": [
+            "office",
+            "chair",
+            "ergonomic"
+        ],
+        "feature": false,
+        "brand": "OfficeEase",
+        "sku": "OE-CHR-005",
+        "warrantyInformation": "1 year warranty",
+        "shippingInformation": "Ships within 4 business days",
+        "availabilityStatus": "In Stock",
+        "returnPolicy": "14-day return policy",
+        "deliveryFree": "Free Delivery",
+        "securePayment": "Secure Payment",
+        "minimumOrderQuantity": 1,
+        "images": [
+            "https://images.unsplash.com/photo-1586023492125-27b2c045efd7",
+            "https://images.unsplash.com/photo-1505691938895-1758d7feb511",
+            "https://images.unsplash.com/photo-1616627980190-8e9d9a5a3d4f"
+        ]
+    }
+]
