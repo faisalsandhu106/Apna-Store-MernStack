@@ -37,7 +37,7 @@ const SingleProduct = () => {
   })
 
   const getAllproductIndividual = async () => {
-    const res = await fetch(`http://localhost:3000/api/allproducts/${id}`, {
+    const res = await fetch(`https://apna-store-backend-two.vercel.app/api/allproducts/${id}`, {
       method: "GET",
       headers: {
         'Content-Type': 'application/json'
