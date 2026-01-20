@@ -10,7 +10,6 @@ import { ToastContainer } from 'react-toastify';
 
 const SingleProduct = () => {
   const { id } = useParams();
-  // console.log(singleProduct)
 
   const [isdata, setIsData] = useState({
     // _id: alise: "",
