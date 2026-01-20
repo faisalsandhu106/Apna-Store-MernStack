@@ -18,7 +18,7 @@ const AdminUserProfile = () => {
   // *Delete User In Admin Penal
   // !--------------------------
   const deleteUserData = async (id) => {
-    const res = await fetch(`http://localhost:3000/admin/user/delete/${id}`, {
+    const res = await fetch(`https://apna-store-backend-two.vercel.app/admin/user/delete/${id}`, {
       method: "DELETE",
       headers: {
         'Content-Type': 'application/json'
@@ -29,7 +29,7 @@ const AdminUserProfile = () => {
     // console.log("After Delete", data)
 
     if (res.ok) {
-      hendleSuccess("User Delete Successfully, Please Refresh Your Page")
+      hendleSuccess("User Delete Successfully, Refresh Your Page")
     } else {
       hendleError("User Not Successfully")
     }
