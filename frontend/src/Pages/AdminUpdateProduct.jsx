@@ -11,7 +11,7 @@ import { RxUpdate } from 'react-icons/rx';
 
 const AdminUpdateProduct = () => {
     const { id } = useParams();
-    const API = "http://localhost:3000";
+    const API = "https://apna-store-backend-two.vercel.app";
     const [isUpdate, setIsupdate] = useState({
         title: '',
         longDescription: '',
