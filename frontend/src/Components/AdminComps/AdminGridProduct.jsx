@@ -11,7 +11,7 @@ const AdminGridProduct = ({ curElem, index }) => {
     //* Delete Product in Admin Panel
     //! -----------------------------
     const deleteProduct = async (id) => {
-        const res = await fetch(`http://localhost:3000/admin/allproduct/delete/${id}`, {
+        const res = await fetch(`https://apna-store-backend-two.vercel.app/admin/allproduct/delete/${id}`, {
             method: "DELETE",
             headers: {
                 'Content-Type': 'application/json'
