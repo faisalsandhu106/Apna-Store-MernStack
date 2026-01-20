@@ -44,7 +44,7 @@ const AdminSideBar = () => {
     // *Get User Profile Information
     // *------------------------
     const getUserData = async () => {
-        const res = await fetch(`http://localhost:3000/auth/user/${isId}`, {
+        const res = await fetch(`https://apna-store-backend-two.vercel.app/auth/user/${isId}`, {
             method: "GET",
             headers: {
                 "Content-Type": "application/json"
