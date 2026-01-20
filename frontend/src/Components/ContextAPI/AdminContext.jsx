@@ -6,7 +6,7 @@ import reducer from "../Reducer/AdminReducer"
 const AdminContext = createContext();
 
 const AdminProvider = ({ children }) => {
-    const api = 'http://localhost:3000'
+    const api = 'https://apna-store-backend-two.vercel.app'
 
     const initialState = {
         getAlluser: [],
