@@ -46,7 +46,7 @@ const AdminCreateProduct = () => {
   // ?-----------------------------
   const handleCreateProduct = async (event) => {
     event.preventDefault();
-    const url = "http://localhost:3000/admin/craeteproduct";
+    const url = "https://apna-store-backend-two.vercel.app/admin/craeteproduct";
     const { feature, price,  } = isCreate;
     if (!feature || !price) {
       return hendleError("feature & price fields requried");
