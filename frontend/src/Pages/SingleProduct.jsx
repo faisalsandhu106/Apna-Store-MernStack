@@ -1,86 +1,86 @@
 import React, { useEffect, useState } from 'react'
-// import { NavLink, useParams } from 'react-router-dom';
-// import { FaLongArrowAltLeft } from 'react-icons/fa';
-// import RatingProduct from '../Components/Common/RatingProduct';
-// import { TbReplace, TbTruckDelivery } from 'react-icons/tb';
-// import { RiSecurePaymentFill } from 'react-icons/ri';
-// import { GiReceiveMoney } from 'react-icons/gi';
-// import AddProductButton from '../Components/ShopComps/AddProductButton';
-// import { ToastContainer } from 'react-toastify';
+import { NavLink, useParams } from 'react-router-dom';
+import { FaLongArrowAltLeft } from 'react-icons/fa';
+import RatingProduct from '../Components/Common/RatingProduct';
+import { TbReplace, TbTruckDelivery } from 'react-icons/tb';
+import { RiSecurePaymentFill } from 'react-icons/ri';
+import { GiReceiveMoney } from 'react-icons/gi';
+import AddProductButton from '../Components/ShopComps/AddProductButton';
+import { ToastContainer } from 'react-toastify';
 
 const SingleProduct = () => {
-  // const { id } = useParams();
+  const { id } = useParams();
 
-  // const [isdata, setIsData] = useState({
-  //   // _id: alise: "",
-  //   title: "",
-  //   longDescription: "",
-  //   shortDescription: "",
-  //   category: "",
-  //   price: "",
-  //   discountPercentage: "",
-  //   rating: "",
-  //   stock: "",
-  //   tags: "",
-  //   brand: "",
-  //   sku: "",
-  //   warrantyInformation: "",
-  //   shippingInformation: "",
-  //   availabilityStatus: "",
-  //   returnPolicy: "",
-  //   deliveryFree: "",
-  //   securePayment: "",
-  //   minimumOrderQuantity: "",
-  //   images: "",
-  //   // feature,
-  //   // status,
-  // })
+  const [isdata, setIsData] = useState({
+    // _id: alise: "",
+    title: "",
+    longDescription: "",
+    shortDescription: "",
+    category: "",
+    price: "",
+    discountPercentage: "",
+    rating: "",
+    stock: "",
+    tags: "",
+    brand: "",
+    sku: "",
+    warrantyInformation: "",
+    shippingInformation: "",
+    availabilityStatus: "",
+    returnPolicy: "",
+    deliveryFree: "",
+    securePayment: "",
+    minimumOrderQuantity: "",
+    images: "",
+    // feature,
+    // status,
+  })
 
-  // const getAllproductIndividual = async () => {
-  //   const res = await fetch(`https://apna-store-backend-two.vercel.app/api/allproducts/${id}`, {
-  //     method: "GET",
-  //     headers: {
-  //       'Content-Type': 'application/json'
-  //     },
-  //   })
+  const getAllproductIndividual = async () => {
+    const res = await fetch(`https://apna-store-backend-two.vercel.app/api/allproducts/${id}`, {
+      method: "GET",
+      headers: {
+        'Content-Type': 'application/json'
+      },
+    })
 
-  //   const data = await res.json();
-  //   setIsData(data)
-  //   // console.log(data)
-  // };
+    const data = await res.json();
+    setIsData(data)
+    // console.log(data)
+  };
 
-  // useEffect(() => {
-  //   getAllproductIndividual();
-  // }, []);
+  useEffect(() => {
+    getAllproductIndividual();
+  }, []);
 
-  // const {
-  //   _id: alise,
-  //   title,
-  //   longDescription,
-  //   // shortDescription,
-  //   category,
-  //   price,
-  //   discountPercentage,
-  //   rating,
-  //   stock,
-  //   tags,
-  //   brand,
-  //   sku,
-  //   warrantyInformation,
-  //   shippingInformation,
-  //   // availabilityStatus,
-  //   returnPolicy,
-  //   deliveryFree,
-  //   securePayment,
-  //   minimumOrderQuantity,
-  //   images,
-  //   // feature,
-  //   // status,
-  // } = isdata
+  const {
+    _id: alise,
+    title,
+    longDescription,
+    // shortDescription,
+    category,
+    price,
+    discountPercentage,
+    rating,
+    stock,
+    tags,
+    brand,
+    sku,
+    warrantyInformation,
+    shippingInformation,
+    // availabilityStatus,
+    returnPolicy,
+    deliveryFree,
+    securePayment,
+    minimumOrderQuantity,
+    images,
+    // feature,
+    // status,
+  } = isdata
 
   return (
     <>
-      {/* <div className='flex flex-col pt-20 pb-5 w-full min-h-[100vh] overflow-hidden'>
+      <div className='flex flex-col pt-20 pb-5 w-full min-h-[100vh] overflow-hidden'>
         <div className='flex items-center justify-between w-full h-auto xs:px-3 sm:px-6 md:px-8 lg:px-10 xs:text-[0.83em] md:xs:text-[0.88em] xl:xs:text-[0.9em] shadow-sm'>
           <NavLink to="/shop" className='flex items-center gap-x-2 my-4 font-semibold hover:text-gray-500 duration-100'>
             <FaLongArrowAltLeft /> Back to Products
@@ -91,7 +91,6 @@ const SingleProduct = () => {
         </div>
         <div className='flex xs:flex-col xl:flex-row gap-4 xs:px-4 sm:px-6 lg:px-8 w-full h-auto'>
           <div className='xs:py-8 xl:py-11 flex xs:items-center xl:items-start justify-center xl:w-[70%] h-auto'>
-            {/* <ImgProduct picture={images} /> */}
             <img className=' xs:w-[280px] xs:h-[200px] md:w-[330px] md:h-[240px] lg:w-[370px] lg:h-[260px] bg-cover rounded-md' src={images[0]} alt="Product-Img" />
           </div>
           <div className='flex flex-col justify-center py-10 w-full h-auto gap-y-3 text-[0.91em] capitalize'>
