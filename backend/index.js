@@ -2,7 +2,11 @@ const express = require('express');
 const app = express();
 const bodyPaser = require('body-parser');
 const cors = require('cors');
+const { inject } = require('@vercel/analytics');
 require('dotenv').config();
+
+// Initialize Vercel Analytics
+inject();
 
 // *-------------------------------------------------------
 // *Import Files Form ENV & Route & Middleware & Controller
